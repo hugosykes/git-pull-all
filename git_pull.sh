@@ -10,6 +10,5 @@ if [ -d "${i}" ] ; then
     echo $i
     git pull
     git fetch --tags
-    cd $dir
 fi
 done
